@@ -1,0 +1,59 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav
+{   
+    font-size: large;
+    background-color: #111111;
+}
+main
+{
+    background-color:#454545;
+    color:white;
+}
+@media (max-width:540px)
+        {
+            #img
+            {
+                display:none;
+            } 
+        }
+.card:hover
+{
+    background-color:#46485b;
+}
+h4 a
+{
+    color: white;
+    text-decoration: none;
+}
+h4 a#html:hover
+{
+    color:#ee5418;
+}
+h4 a#css:hover
+{
+    color:#1a35a0;
+}
+h4 a#javascript:hover
+{
+    color:#f8d112;
+}
+h4 a#reactjs:hover
+{
+    color:#1baad2;
+}
+h4 a#python:hover
+{
+    color:#215b8d;
+}
+.footer-color 
+{
+    text-align: center;
+    background-color: #111111;
+    color: white;   
+}
