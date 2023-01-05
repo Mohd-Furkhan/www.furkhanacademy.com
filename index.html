@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Furkhan Academy</title>
+    <meta name="description" content="Furkhan Academy is an online learning and teaching Platform ...">
+    <meta name="keywords" content="Furkhan Academy,online,learning,teaching,Platform,HTML,CSS,Bootstrap,JavaScript,React JS,Python,Java,Front End Development,Web Development,Full Stack Development">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohammed Furkhan">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/Furkhan Academy Logo.jpg" width="50px;">Furkhan Academy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-left">
+              <li class="nav-item show">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item show dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown" href="#course">
+                Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropend">
+                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#web development">
+                    Web Development
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#html">HTML</a>
+                        <a class="dropdown-item" href="#css">CSS</a>
+                        <a class="dropdown-item" href="#bootstrap">Bootstrap</a>
+                        <a class="dropdown-item" href="#javascript">JavaScript</a>
+                        <a class="dropdown-item" href="#reactjs">React JS</a>
+                        <a class="dropdown-item" href="#python">Python</a>
+                        <a class="dropdown-item" href="#java">Java</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item show dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown" href="#pages">
+                Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown" href="#courses">
+                    Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="dropend">
+                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#web development">
+                        Web Development
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#html">HTML</a>
+                            <a class="dropdown-item" href="#css">CSS</a>
+                            <a class="dropdown-item" href="#bootstrap">Bootstrap</a>
+                            <a class="dropdown-item" href="#javascript">JavaScript</a>
+                            <a class="dropdown-item" href="#reactjs">React JS</a>
+                            <a class="dropdown-item" href="#python">Python</a>
+                            <a class="dropdown-item" href="#java">Java</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <hr>
+                    <a class="dropdown-item" href="#about">About</a>
+                    <a class="dropdown-item" href="#contact" target="_blank">Contact</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <br>
+            <div class="dropdown ms-auto">
+              <img src="https://png.pngtree.com/png-clipart/20200224/original/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_5247852.jpg" class="dropdown-toggle rounded-circle" data-bs-toggle="dropdown" alt="My Profile Photo" width="50px">
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg><b> Mohammed Furkhan</b><br>Furkhan@Academy.com</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg> Profile</a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                </svg> Settings</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                  <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                </svg> Sign Out</a></li>
+              </ul>
+            </div>
+            <br>
+            <form>
+              <button class="form-control">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+                <input type="search" placeholder="Search Courses">
+              </button>
+            </form>
+          </div>
+    </nav>
+    <!-- Navbar End -->
+    <main>
+        <!-- Home Start -->
+        <div id="home" class="container d-flex" style="padding-top:100px;">
+          <h1 class="display-5 fw-bold">Welcome to Furkhan Academy Learning Platform <br><br> <div class="display-5 fs-2 lh-lg">We focus on teaching our students <br> the latest and greatest technologies <br> to prepare them their first role in <br> web development.</div></h1>
+          <img id="img" src="assets/My Photo.jpg" width="30%">
+        </div>
+        <div class="container" style="padding-bottom:100px;">
+          <a href="#course"><button type="button" class="btn btn-lg" style="background-color:#46485b; color: white;">Browse Courses</button></a>
+        </div>
+        <!-- Home End -->
+        <!-- Card Start -->
+        <div class="container" id="html">
+          <div class="row" id="css">
+              <div class="col-lg-4 mb-2" id="javascript">
+                <h2 id="course">Recommended to you</h2>
+                <br>
+                  <div class="card">
+                      <img class="card-img-top" src="https://geeks-react.netlify.app/static/media/course-html.427d9d6b3af64832dbc2.jpg">
+                      <div class="card-body" style="background-color:#46485b;">
+                        <h4>
+                          <a href="https://drive.google.com/drive/folders/1B87yicR0HzPZ2SLYCbnzyOOi2RccMy72" id="html" target="_blank">HTML Full Course - Build a Website Tutorial</a>
+                        </h4>
+                        <ul>
+                          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg> 3h 16m 
+                          <hr>
+                          <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect><rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect><rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect></svg> Beginner
+                          </li>
+                          <hr>
+                          <div class="footer">
+                            <span style="color:orange;"> &#9733; &#9733; &#9733; </span> &#9733; &#9733; <span style="color:orange;">3.0</span>
+                          </div>
+                        </ul>
+                      </div>  
+                  </div>
+              </div>
+              <div class="col-lg-4 mb-2">
+                <br><br><br>
+                  <div class="card">
+                      <img class="card-img-top" src="https://geeks-react.netlify.app/static/media/course-css.e2fee8ac50e018baa8fc.jpg">
+                      <div class="card-body" style="background-color:#46485b;">
+                        <h4>
+                          <a href="https://drive.google.com/drive/folders/1Hd_bj0pAfxjanOHN6cV25_sik6M-_kdL" id="css" target="_blank">CSS: ultimate CSS course from beginner to advanced</a>
+                        </h4>
+                        <ul>
+                          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg> 1h 30m 
+                          <hr>
+                          <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect><rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect><rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect></svg> Intermediate
+                          </li>
+                          <hr>
+                          <div class="footer">
+                            <span style="color:orange;"> &#9733; &#9733; &#9733; &#9733; <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg> 4.5</span>
+                          </div>
+                        </ul>
+                      </div>  
+                  </div>
+              </div>
+              <div class="col-lg-4 mb-2">
+                <br><br><br>
+                  <div class="card">
+                      <img class="card-img-top" src="https://geeks-react.netlify.app/static/media/course-javascript.8afdeff32816e30422da.jpg">
+                      <div class="card-body" style="background-color:#46485b;">
+                        <h4>
+                          <a href="#" id="javascript" target="_blank">A Complete Beginner’s Guide to JavaScript</a>
+                        </h4>
+                        <ul>
+                          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg> 4h 10m 
+                          <hr>
+                          <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect><rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect><rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect></svg> Advance
+                          </li>
+                          <hr>
+                          <div class="footer">
+                            <span style="color:orange;"> &#9733; &#9733; &#9733; <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg> </span> &#9733; <span style="color:orange;">3.5</span>
+                          </div>
+                        </ul>
+                      </div>  
+                  </div>
+              </div>
+          </div>
+        </div> 
+        <br><br><br><br><br>
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-6 mb-4" id="reactjs">
+                <h2 id="python">Most Popular</h2>
+                <br>
+                  <div class="card">
+                      <img class="card-img-top" src="https://geeks-react.netlify.app/static/media/course-react.999d5d4b7ef4771200c2.jpg">
+                      <div class="card-body" style="background-color:#46485b;">
+                        <h4>
+                          <a href="#" id="reactjs" target="_blank">How to easily create a website with React</a>
+                        </h4>
+                        <ul>
+                          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg> 2h 40m 
+                          <hr>
+                          <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect><rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect><rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect></svg> Intermediate
+                          </li>
+                          <hr>
+                          <div class="footer">
+                            <span style="color:orange;"> &#9733; &#9733; &#9733; &#9733; <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg> </span><span style="color:orange;">4.5</span>
+                          </div>
+                        </ul>
+                      </div>  
+                  </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <br><br><br>
+                  <div class="card">
+                      <img class="card-img-top" src="https://geeks-react.netlify.app/static/media/course-python.0e5358f9e53a89fd75bd.jpg">
+                      <div class="card-body" style="background-color:#46485b;">
+                        <h4>
+                          <a href="#" id="python" target="_blank">The Python Course: build web application</a>
+                        </h4>
+                        <ul>
+                          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg> 2h 46m 
+                          <hr>
+                          <svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE"></rect><rect x="7" y="5" width="2" height="9" rx="1" fill="#DBD8E9"></rect><rect x="11" y="2" width="2" height="12" rx="1" fill="#DBD8E9"></rect></svg> Beginner
+                          </li>
+                          <hr>
+                          <div class="footer">
+                            <span style="color:orange;"> &#9733; &#9733; &#9733; &#9733; <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;"><path d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z" style="fill: currentcolor;"></path></svg> </span><span style="color:orange;">4.5</span>
+                          </div>
+                        </ul>
+                      </div>  
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Card End -->
+        <!-- Footer Start-->
+         <div class="footer-color container-fluid">
+          © Copyright 2023 Furkhan Academy. <br> All Rights Reserved. | Published with GitHub Pages
+          <br>
+          <p>Designed by <b style="color:orange">Mohammed Furkhan</b></p>
+         </div>
+        <!-- Footer End-->
+    </main>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
